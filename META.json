@@ -4,7 +4,7 @@
       "Daisuke Murase <typester@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.9.0",
+   "generated_by" : "Minilla/v0.8.2",
    "license" : [
       "perl_5"
    ],
@@ -43,6 +43,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Ark::Plugin" : "0",
+            "HTTP::Request" : "0",
+            "URI" : "0",
             "perl" : "5.008001"
          }
       },
@@ -55,7 +58,7 @@
    "provides" : {
       "Ark::Plugin::ReproxyCallback" : {
          "file" : "lib/Ark/Plugin/ReproxyCallback.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Ark::Plugin::ReproxyCallback::OpenSocial" : {
          "file" : "lib/Ark/Plugin/ReproxyCallback/OpenSocial.pm"
@@ -72,7 +75,7 @@
          "web" : "https://github.com/ark-framework/Ark-Plugin-ReproxyCallback"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Songmu <y.songmu@gmail.com>"
    ]

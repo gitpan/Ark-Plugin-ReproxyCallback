@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.9.0, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Minilla/v0.8.2, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,15 +28,18 @@ no_index:
 provides:
   Ark::Plugin::ReproxyCallback:
     file: lib/Ark/Plugin/ReproxyCallback.pm
-    version: 0.01
+    version: 0.02
   Ark::Plugin::ReproxyCallback::OpenSocial:
     file: lib/Ark/Plugin/ReproxyCallback/OpenSocial.pm
 requires:
+  Ark::Plugin: 0
+  HTTP::Request: 0
+  URI: 0
   perl: 5.008001
 resources:
   bugtracker: https://github.com/ark-framework/Ark-Plugin-ReproxyCallback/issues
   homepage: https://github.com/ark-framework/Ark-Plugin-ReproxyCallback
   repository: git://github.com/ark-framework/Ark-Plugin-ReproxyCallback.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'Songmu <y.songmu@gmail.com>'
